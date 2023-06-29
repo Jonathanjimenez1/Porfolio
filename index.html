@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Porfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
@@ -249,6 +249,7 @@
             <h3>Pagina web animada</h3> 
             <span>#HTML</span>
             <span>#CSS</span>
+             <span>#Responsive</span>
             <span>#JavaScript</span> <br> 
 
 
@@ -286,16 +287,57 @@
             <h3>Juego de memoria</h3> 
             <span>#HTML</span>
             <span>#CSS</span>
+             <span>#Responsive</span>
             <span>#JavaScript</span> <br> 
 
 
             <p>
-              Juego de memoria con límite de movimientos y de <br> tiempo, mostrado por contadores que cuentan los <br> movimientos que realizas y una cuenta atrás de 18 segundos, cuando el usuario sobrepasa el límite de movimientos o de tiempo,
+              Juego de memoria creado a partir de en su mayoria con JavaScript con límite de movimientos y de <br> tiempo, mostrado por contadores que cuentan los <br> movimientos que realizas y una cuenta atrás de 18 segundos, cuando el usuario sobrepasa el límite de movimientos o de tiempo,
                las cartas desaparecen y se muestra un mensaje advirtiendo al usuario que no ha podido completar el nivel, y cuenta con la posibilidad de reiniciar el nivel.
             </p>
 
 
             <a href="https://jonathanjimenez1.github.io/Juego-de-cartas/" target="_blank"> <button> Visita el sitio web aqui</button></a>
+            
+            
+            
+
+          </div>
+
+
+        </article>
+        
+        
+        <article class="project1">
+
+          <div class="imagencontenedor">
+            <img src="imagenes/smartmockups_l6g6ra7n.jpg" alt="tienda php">
+            
+
+          
+
+            
+          </div>
+
+
+          <div class="texto-porfolio">
+            <h3>Tienda php</h3> 
+            <span>#PHP</span>
+            <span>#CSS</span>
+             <span>#Responsive</span>
+            <span>#HTML</span> <br> 
+
+
+            <p>
+              Pequeña tienda creada a partir de PHP creando una base de datos para los productos , saber el número de ventas,
+              con un carrito que se va actualizando cada vez que se agrega un producto, una lista que se muestra los productos agregados al carrito 
+              y un pago final con paypal totalmente funcional (modo prueba) creando y utilizando una api de pagos.
+
+               
+            </p>
+
+
+            <a href="http://tiendaphp.infinityfreeapp.com/" target="_blank"> <button> Visita el sitio web aqui</button></a>
             
             
             
@@ -335,14 +377,16 @@
 
             <form action="enviar.php" method="post">
     
-                <input type="text" placeholder="nombre" class="box">
-                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="nombre" name="nombre" class="box">
+                <input type="email" placeholder="email" name="email" class="box">
                 
     
-                <textarea name="mensaje" placeholder="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <textarea name="mensaje" placeholder="mensaje"  id="mensaje" name="mensaje"  cols="30" rows="10"></textarea>
     
                 <input type="submit" class="btn" value="enviar mensaje">
-    
+
+                
+                
             </form>
     
             
